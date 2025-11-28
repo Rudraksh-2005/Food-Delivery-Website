@@ -1,0 +1,42 @@
+.header{
+    height:34vw;
+    margin:50px 100px;
+    background: url('/header_img.png') no-repeat ;
+    background-size: contain;
+    position: relative;
+}
+
+.header-contents{
+    position:absolute;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap:1.5vw;
+    max-width:50%;
+    bottom:10%;
+    left:6vw;
+    animation:fadeIn 3s;
+}
+
+.header-contents h2{
+    font-size:max(4.5vw,22px);
+    color: #ffffff;
+    font-weight:600;
+}
+
+.header-contents p{
+    font-size:2vw;
+    color: #ffffff;
+    font-weight:400;
+}
+
+.header-contents button{
+    background:rgb(255, 255, 255);
+    font-size:1.2vw;
+    color:#d66f07;
+    border:none;
+    padding:12px 25px;
+    border:2px solid rgb(176, 37, 12);
+    border-radius:30px;
+    cursor:pointer;
+}
